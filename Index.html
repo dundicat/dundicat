@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Hisense GSS</title>
+	<link rel="stylesheet" href="css/xinrong.css">
+	<link rel="stylesheet" href="css/hisense-frame.css">
+	<link rel="stylesheet" href="css/hisense-theme.css">
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/frame.js"></script>
+</head>
+<body>
+<div class="header">
+	<a class="logo" href="javascript:void(0);"></a>
+    <div class="scroll-nav">
+      <a href="javascript:void(0);" id="scroll-nav-left" class="scroll-icon"><i class="icon-chevron-left"></i></a>
+      <div class="scroll-content">
+        <ul class="main-nav">
+            <li><a href="javascript:void(0);"><span>基础管理</span></a></li>
+            <li><a href="javascript:void(0);"><span>业务管理</span></a></li>
+            <li><a href="javascript:void(0);"><span>产品管理</span></a></li>
+            <li><a href="javascript:void(0);"><span>订单台帐管理</span></a></li>
+            <li><a href="javascript:void(0);"><span>计划管理</span></a></li>
+            <li><a href="javascript:void(0);"><span>库存管理</span></a></li>
+            <li><a href="javascript:void(0);"><span>系统管理</span></a></li>
+            <li><a href="javascript:void(0);"><span>基础数据</span></a></li>
+        </ul>
+      </div>
+      <a href="javascript:void(0);" id="scroll-nav-right" class="scroll-icon"><i class="icon-chevron-right"></i></a>
+    </div>
+	<div class="user">
+				<ul class="icon-nav">
+					<li>
+						<a href="javascript:void(0);"><i class="icon-home"></i></a>
+					</li>
+					<li class="set-fullscreen">
+						<a href="javascript:void(0);"><i class="icon-fullscreen"></i></a>
+					</li>
+					<li class="dropdown set-color">
+						<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-tint"></i></a>
+					<!-- themecolor select dropdown -->
+                        <ul class="dropdown-menu pull-right theme-colors hide">
+                            <li>
+                                <span class="red"></span>
+                                <span class="orange"></span>
+                                <span class="brown"></span>
+                                <span class="blue"></span>
+                                <span class="teal"></span>
+                                <span class="green"></span>
+                            </li>
+                        </ul>					
+					<!-- end -->
+					</li>
+					<li class="dropdown set-message">
+						<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-volume-up"></i></a>
+						<!-- themecolor select dropdown -->
+                        <ul class="dropdown-menu pull-right message-ul hide">
+                            <li>
+                                <a href="javascript:void(0);">
+                                        <div class="message">
+                                            新系统上线，欢迎使用！新增订单台帐管理功能。
+                                        </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">
+                                        <div class="message">
+                                           新系统上线，欢迎使用！新增订单台帐管理功能。
+                                        </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);">
+                                        <div class="message">
+                                           新系统上线，欢迎使用！新增订单台帐管理功能。
+                                        </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="components-messages.html" class="more-messages">查看更多 <i class="icon-arrow-right"></i></a>
+                            </li>
+                        </ul>					
+                    
+                    </li>
+					<li>
+						<a href="javascript:void(0);"><i class="icon-lock"></i></a>
+					</li>
+				</ul>
+				<div class="dropdown userinfo">
+					<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-user"></i> <span>系统管理员</span> <i class="icon-chevron-down userinfo-drop-icon"></i></a>
+					<!--userinfo dropdown-->
+					<ul class="dropdown-menu pull-right hide">
+						<li>
+							<a href="javascript:void(0);"><i class="icon-briefcase"></i><span>修改个人信息</span></a>
+						</li>
+						<li>
+							<a href="javascript:void(0);"><i class="icon-key"></i><span>修改密码</span></a>
+						</li>
+						<li>
+							<a href="javascript:void(0);"><i class="icon-th-list"></i><span>登录记录</span></a>
+						</li>
+						<li>
+							<a href="javascript:void(0);"><i class="icon-group"></i><span>在线员工</span></a>
+						</li>
+						<li>
+							<a href="javascript:void(0);"><i class="icon-off"></i><span>退出</span></a>
+						</li>
+					</ul>
+				</div>
+			    </div>
+</div>
+<div class="wrapper">
+	<div class="sidebar">
+    <!--sub nav unit-->
+      <div class="subnav">
+          <div class="subnav-title">
+              <a href="javascript:void(0);" class="toggle-subnav"><span>订单信息</span> <i class="icon-plus"></i></a>
+          </div>
+          <ul class="subnav-menu hide">
+              <li>
+                  <a href="planInfo.html" target="dataFrame">意向订单</a>
+              </li>
+              <li>
+                  <a href="configInfo_1.html" target="dataFrame">电气及认证要求</a>
+              </li>
+              <li>
+                  <a href="configInfo_2.html" target="dataFrame">结构要求</a>
+              </li>
+              <li>
+                  <a href="configInfo_3.html" target="dataFrame">软件要求</a>
+              </li>
+              <li>
+                  <a href="configInfo_4.html" target="dataFrame">印刷品及附件要求</a>
+              </li>
+              <li>
+                  <a href="configInfo_5.html" target="dataFrame">工艺要求</a>
+              </li>
+              <li>
+                  <a href="ysjInfo_1.html" target="dataFrame">易损件信息</a>
+              </li>
+              <li>
+                  <a href="contactInfo_1.html" target="dataFrame">价格及客户</a>
+              </li>
+              <li>
+                  <a href="orderView.html" target="dataFrame">浏览订单</a>
+              </li>
+              <li>
+                  <a href="orderComplete.html" target="dataFrame">完成</a>
+              </li>
+           </ul>
+      </div>    
+    <!--End sub nav unit -->
+      <div class="subnav">
+          <div class="subnav-title">
+              <a href="javascript:void(0);" class="toggle-subnav"><span>综合查询</span> <i class="icon-plus"></i></a>
+          </div>
+          <ul class="subnav-menu hide">
+              <li>
+                  <a href="javascript:void(0);">查询意向订单</a>
+              </li>
+              <li>
+                  <a href="javascript:void(0);">查询购销合同</a>
+              </li>
+              <li>
+                  <a href="javascript:void(0);">我管理的订单台帐</a>
+              </li>
+              <li>
+                  <a href="javascript:void(0);">查询意向订单</a>
+              </li>
+              <li>
+                  <a href="javascript:void(0);">查询购销合同</a>
+              </li>
+              <li>
+                  <a href="javascript:void(0);">我管理的订单台帐</a>
+              </li>
+            </ul>
+      </div>    
+      <div class="subnav">
+          <div class="subnav-title">
+              <a href="javascript:void(0);" class="toggle-subnav"><span>排产计划</span> <i class="icon-plus"></i></a>
+          </div>
+          <ul class="subnav-menu hide">
+              <li>
+                  <a href="javascript:void(0);">排产计划导入</a>
+              </li>
+          </ul>    
+      </div>    
+    </div>
+    <div class="main">
+   	    <iframe id="dataFrame" name="dataFrame" src="default.html" frameborder="0"></iframe>
+    </div>
+</div>
+</body>
+</html>

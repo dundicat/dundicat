@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>价格及客户--商务条款--Hisense GSS</title>
+	<link rel="stylesheet" href="css/xinrong.css">
+	<link rel="stylesheet" href="css/hisense-style.css">
+	<link rel="stylesheet" href="css/hisense-theme.css">
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/common.js"></script>
+</head>
+
+<body>
+<div class="container-fluid">
+  <!-- page header Start -->
+  <div class="page-header">
+    <div class="pull-left">
+        <h1>订单信息</h1>
+    </div>
+    <div class="pull-right">
+    	<ul class="page-info">
+        	<li id="info-orderNum">订单编号：<span>DD20131115001</span></li>
+        	<li id="info-orderStep">阶段：<span>详细选配</span></li>
+        </ul>
+    </div>
+  </div>
+  <!-- page header End -->
+  <!-- order step start -->
+  <div class="order-step">
+  	<ul>
+      <li class="order-step-1">
+      	<div class="order-step-title over">
+        	<div class="order-step-title-inner">
+            <em class="icon-ok"></em>
+        	<i class="icon-circle"></i>
+            <span>意向订单</span>
+            </div>
+        </div>
+      	<ul class="order-progress">
+        	<li class="over">
+            	<a href="planInfo.html">
+                <i class="icon-circle"></i>
+             	<span>意向订单</span>
+                </a>
+           </li>
+        </ul>
+      </li>
+      <li class="order-step-2">
+      	<div class="order-step-title over">
+        	<div class="order-step-title-inner">
+            <em class="icon-ok"></em>
+        	<i class="icon-circle"></i>
+            <span>详细选配</span>
+            </div>
+        </div>
+      	<ul class="order-progress">
+        	<li class="over">
+            	<a href="configInfo_1.html">
+                <i class="icon-circle"></i>
+             	<span>电气认证要求</span>
+                </a>
+           </li>
+        	<li class="over">
+            	<a href="configInfo_2.html">
+                <i class="icon-circle"></i>
+             	<span>结构要求</span>
+                </a>
+           </li>
+        	<li class="over">
+            	<a href="configInfo_3.html">
+                <i class="icon-circle"></i>
+             	<span>软件要求</span>
+                </a>
+           </li>
+        	<li class="over">
+            	<a href="configInfo_4.html">
+                <i class="icon-circle"></i>
+             	<span>印刷品及附件要求</span>
+                </a>
+           </li>
+        	<li class="over">
+            	<a href="configInfo_5.html">
+                <i class="icon-circle"></i>
+             	<span>工艺要求</span>
+                </a>
+           </li>
+        </ul>
+      </li>
+      <li class="order-step-3">
+      	<div class="order-step-title active">
+        	<div class="order-step-title-inner">
+            <em>3</em>
+        	<i class="icon-circle"></i>
+            <span>商务条款</span>
+            </div>
+        </div>
+      	<ul class="order-progress">
+        	<li class="over">
+            	<a href="ysjInfo_1.html">
+                <i class="icon-circle"></i>
+             	<span>易损件信息</span>
+                </a>
+           </li>
+        	<li class="active">            	<a href="contactInfo_1.html">
+                <i class="icon-circle"></i>
+             	<span>价格及客户</span>
+                </a>
+</li>
+         </ul>
+      </li>
+      <li class="order-step-4">
+      	<div class="order-step-title">
+         	<div class="order-step-title-inner">
+      	    <em>4</em>
+        	<i class="icon-circle"></i>
+            <span>确认订单</span>
+            </div>
+        </div>
+      	<ul class="order-progress">
+        	<li>
+            	<a href="orderView.html">
+                <i class="icon-circle"></i>
+             	<span>浏览订单</span>
+                </a>
+           </li>
+        	<li>
+            	<a href="orderComplete.html">
+                <i class="icon-circle"></i>
+             	<span>完成</span>
+                </a>
+           </li>
+         </ul>
+      </li>
+ 	 </ul>
+     <div class="order-bar"></div>
+  </div>
+  <!-- order step end -->
+  
+  <div class="box box-order">
+  	<!-- box title start -->
+  	<div class="box-title">
+	<ul class="tabs tabs-left">
+        <li>
+            <a href="configInfo_view.html">查看已选配置</a>
+        </li>
+        <li class="active">
+            <a href="contactInfo_2.html">详细选配</a>
+        </li>
+    </ul> 
+    </div> 
+  	<!-- box title end -->
+    <div class="box-content">
+    	<form class="form-horizontal">
+        <table class="data-table form-table" width="100%" cellpadding="0" cellspacing="0">
+			<tr>
+				<th width="15%">客户(售达方)</th>
+				<td width="35%"><input name="textfield" id="textfield" type="text">
+</td>
+				<th width="15%">销售方代码 </th>
+				<td width="35%"><input type="text" readonly /></td>
+			</tr>
+			<tr>
+				<th>售达方所属区域</th>
+				<td colspan="3">
+				<select class="select-small"><option>--请选择 --</option></select>&nbsp;
+				<select class="select-small"><option>--请选择 --</option></select>&nbsp;
+				<select class="select-small"><option>--请选择 --</option></select>
+				</td>
+			</tr>
+				<tr>
+				<th>客户(送达方)</th>
+				<td><input type="text" /></td>
+				<th>送达方代码 </th>
+				<td><input type="text" readonly /></td>
+			</tr>
+				<tr>
+				<th>联系人姓名</th>
+				<td><input type="text"/></td>
+				<th>联系电话</th>
+				<td><input type="text" readonly /></td>
+			</tr>
+			<tr>
+				<th>提货方式</th>
+				<td colspan="3"><input type="radio" name="aa" /> 客户自提 &nbsp; <input type="radio" name="aa" /> 委托陪送</td>
+			</tr>
+			<tr>
+				<th>送货地址</th>
+				<td colspan="3">
+				<select class="select-small">
+				 <option>--请选择--</option>
+				</select>&nbsp;
+                省/自治区/直辖市&nbsp; 
+                <select class="select-small">
+				 <option>--请选择--</option>
+				</select>&nbsp;
+                 市&nbsp; <input type="text"/>
+				</td>
+			</tr>
+			<tr>
+				<th>付款条件</th>
+				<td colspan="3">
+				<select class="select-small">
+				 <option>--请选择--</option>
+				</select>
+				</td>
+			</tr>
+			<tr>
+				<th>其他付款方式</th>
+				<td colspan="3">
+				<input type="text"/>
+				</td>
+			</tr>
+			<tr>
+				<th>要求交货期</th>
+				<td colspan="3">
+				<input type="text"/>
+				</td>
+			</tr>
+			<tr>
+				<th>客户信息备注</th>
+				<td colspan="3">
+				<textarea rows="3" style="width:800px"></textarea>
+				</td>
+			</tr>
+		</table>
+		<div class="row-fluid">
+            <div class="span3 pull-right">
+              <ul class="order-info">
+                  <li><span class="order-info-label">台数</span><span class="order-info-cont">400</span></li>
+                  <li><span class="order-info-label">机型标配单价</span><span class="order-info-cont">280.72</span></li>
+                  <li><span class="order-info-label">定制选配项单价</span><span class="order-info-cont">0.92</span></li>
+                  <li><span class="order-info-label">机型合计总价</span><span class="order-info-cont">112656.00</span></li>
+                  <li><span class="order-info-label">易损件总价</span><span class="order-info-cont">418.3</span></li>
+                  <li><span class="order-info-label">订单合计总价</span><span class="order-info-cont">112656.00</span></li>
+              </ul>
+            </div>
+        </div>        
+        <div class="form-actions">
+          <button type="button" onClick="location.href='orderComplete.html';" class="btn btn-primary btn-large pull-right">提交订单</button>
+          <button type="button" onClick="location.href='orderView.html';" class="btn btn-primary btn-large pull-right">浏览订单</button>
+        </div>
+        </form>
+      </div>
+  </div>
+</div>
+</body>
+</html>

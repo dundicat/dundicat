@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>软件要求--详细选配--Hisense GSS</title>
+	<link rel="stylesheet" href="css/xinrong.css">
+	<link rel="stylesheet" href="css/hisense-style.css">
+	<link rel="stylesheet" href="css/hisense-theme.css">
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/common.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $(".img-list li").click(function(){
+		var img = $(this).find("img").attr("src");
+		$("#mainImag").attr("src",img);
+	});
+});
+</script>
+</head>
+
+<body>
+<div class="container-fluid">
+  <!-- page header Start -->
+  <div class="page-header">
+    <div class="pull-left">
+        <h1>订单信息</h1>
+    </div>
+    <div class="pull-right">
+    	<ul class="page-info">
+        	<li id="info-orderNum">订单编号：<span>DD20131115001</span></li>
+        	<li id="info-orderStep">阶段：<span>详细选配</span></li>
+        </ul>
+    </div>
+  </div>
+  <!-- page header End -->
+  <!-- order step start -->
+  <div class="order-step">
+  	<ul>
+      <li class="order-step-1">
+      	<div class="order-step-title over">
+        	<div class="order-step-title-inner">
+            <em class="icon-ok"></em>
+        	<i class="icon-circle"></i>
+            <span>意向订单</span>
+            </div>
+        </div>
+      	<ul class="order-progress">
+        	<li class="over">
+            	<a href="planInfo.html">
+                <i class="icon-circle"></i>
+             	<span>意向订单</span>
+                </a>
+           </li>
+        </ul>
+      </li>
+      <li class="order-step-2">
+      	<div class="order-step-title active">
+        	<div class="order-step-title-inner">
+            <em>2</em>
+        	<i class="icon-circle"></i>
+            <span>详细选配</span>
+            </div>
+        </div>
+      	<ul class="order-progress">
+        	<li class="over">
+            	<a href="configInfo_1.html">
+                <i class="icon-circle"></i>
+             	<span>电气认证要求</span>
+                </a>
+           </li>
+        	<li class="over">
+            	<a href="configInfo_2.html">
+                <i class="icon-circle"></i>
+             	<span>结构要求</span>
+                </a>
+           </li>
+        	<li class="active">
+            	<a href="configInfo_3.html">
+                <i class="icon-circle"></i>
+             	<span>软件要求</span>
+                </a>
+           </li>
+        	<li>
+            	<a href="configInfo_4.html">
+                <i class="icon-circle"></i>
+             	<span>印刷品及附件要求</span>
+                </a>
+           </li>
+        	<li>
+            	<a href="configInfo_5.html">
+                <i class="icon-circle"></i>
+             	<span>工艺要求</span>
+                </a>
+           </li>
+        </ul>
+      </li>
+      <li class="order-step-3">
+      	<div class="order-step-title">
+        	<div class="order-step-title-inner">
+            <em>3</em>
+        	<i class="icon-circle"></i>
+            <span>商务条款</span>
+            </div>
+        </div>
+      	<ul class="order-progress">
+        	<li>
+            	<a href="ysjInfo_1.html">
+                <i class="icon-circle"></i>
+             	<span>易损件信息</span>
+                </a>
+           </li>
+        	<li>            	<a href="contactInfo_1.html">
+                <i class="icon-circle"></i>
+             	<span>价格及客户</span>
+                </a>
+</li>
+         </ul>
+      </li>
+      <li class="order-step-4">
+      	<div class="order-step-title">
+         	<div class="order-step-title-inner">
+      	    <em>4</em>
+        	<i class="icon-circle"></i>
+            <span>确认订单</span>
+            </div>
+        </div>
+      	<ul class="order-progress">
+        	<li>
+            	<a href="orderView.html">
+                <i class="icon-circle"></i>
+             	<span>浏览订单</span>
+                </a>
+           </li>
+        	<li>
+            	<a href="orderComplete.html">
+                <i class="icon-circle"></i>
+             	<span>完成</span>
+                </a>
+           </li>
+         </ul>
+      </li>
+ 	 </ul>
+     <div class="order-bar"></div>
+  </div>
+  <!-- order step end -->
+  
+  <div class="box box-order">
+  	<!-- img gallery start -->
+	<div class="img-gallery">
+    	<ul class="img-list">
+        	<li><img src="images/1.jpg" /></li>
+        	<li><img src="images/2.jpg"  /></li>
+        	<li><img src="images/3.jpg"  /></li>
+        	<li><img src="images/4.jpg"  /></li>
+        </ul>
+        <div class="img-show">
+        	<img src="images/1.jpg" id="mainImag" />
+        </div>
+    </div>
+  	<!-- img gallery end -->
+  	<!-- box title start -->
+  	<div class="box-title">
+	<ul class="tabs tabs-left">
+        <li>
+            <a href="configInfo_view.html">查看已选配置</a>
+        </li>
+        <li class="active">
+            <a href="configInfo_3.html">详细选配</a>
+        </li>
+    </ul> 
+    </div> 
+  	<!-- box title end -->
+    <div class="box-content">
+    <form action="configInfo_4.html" method="POST">
+    	<table class="data-table" width="100%" cellpadding="0" cellspacing="0">
+			<tr>
+				<th>&nbsp;配置项</th>
+				<th width="117">销售描述</th>
+				<th width="271">可选项</th>
+				<th width="72">价格</th>
+				<th width="166">图片</th>
+				<th width="180">特殊要求</th>
+			</tr>
+			<tr>
+			  <td rowspan="3">OSD语言种类</td>
+			  <td>英文</td>
+			  <td rowspan="3" class="text-left">
+                <div class="controls">
+                   <label class="radio">
+                       <input name="radio" type="radio">
+                       英文【选配价格：0】</label>
+                   <label class="radio">
+                       <input name="radio" type="radio">
+                       法文【选配价格：0】</label>
+                   <label class="radio">
+                       <input name="radio" type="radio">
+                       西文【选配价格：0】</label>
+                </div>			  </td>
+			  <td rowspan="3">0</td>
+			  <td rowspan="3">&nbsp;</td>
+			  <td rowspan="3">&nbsp;</td>
+		  </tr>
+			<tr>
+			  <td>法文</td>
+		  </tr>
+			<tr>
+				<td>西伯来文</td>
+			</tr>
+		
+			   <tr>
+				<td>出厂语言设置</td>
+				<td>英文</td>
+				<td class="text-left">
+                 <div class="controls">
+                   <label class="radio">
+                       <input name="radio" type="radio">
+                       英文【选配价格：0】</label>
+                   <label class="radio">
+                       <input name="radio" type="radio">
+                       法文【选配价格：0】</label>
+                   <label class="radio">
+                       <input name="radio" type="radio">
+                       西文【选配价格：0】</label>
+                  </div>
+				</td>
+				<td>
+				0</td>
+				<td>&nbsp;</td>
+				<td></td>
+			</tr>
+	    </table>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary btn-large pull-right">继续选配&nbsp; <i class="icon-chevron-right"></i></button>
+        </div>
+    </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
