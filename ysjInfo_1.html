@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>销售备损--详细选配--Hisense GSS</title>
+	<link rel="stylesheet" href="css/xinrong.css">
+	<link rel="stylesheet" href="css/hisense-style.css">
+	<link rel="stylesheet" href="css/hisense-theme.css">
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/common.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	$("#add-ysj").click(function(){
+		var tempStr = '';
+		tempStr += '<tr>';
+		tempStr += '<td><input type="text" class="input-mini" /></td>';
+		tempStr += '<td><input type="text" class="input-mini" /></td>';
+		tempStr += '<td><input type="text" class="input-mini" /></td>';
+		tempStr += '<td><input type="text" class="input-mini" /></td>';
+		tempStr += '<td><input type="text" class="input-mini" /></td>';
+		tempStr += '<td><a href="#">添加</a></td>';
+		tempStr += '</tr>';
+		
+		$("#ysj-list").append(tempStr);
+		
+	});
+	
+});
+function addYsjSubmit(){
+	
+}
+</script>
+
+</head>
+
+<body>
+<div class="container-fluid">
+  <!-- page header Start -->
+  <div class="page-header">
+    <div class="pull-left">
+        <h1>订单信息</h1>
+    </div>
+    <div class="pull-right">
+    	<ul class="page-info">
+        	<li id="info-orderNum">订单编号：<span>DD20131115001</span></li>
+        	<li id="info-orderStep">阶段：<span>详细选配</span></li>
+        </ul>
+    </div>
+  </div>
+  <!-- page header End -->
+  <!-- order step start -->
+  <div class="order-step">
+  	<ul>
+      <li class="order-step-1">
+      	<div class="order-step-title over">
+        	<div class="order-step-title-inner">
+            <em class="icon-ok"></em>
+        	<i class="icon-circle"></i>
+            <span>意向订单</span>
+            </div>
+        </div>
+      	<ul class="order-progress">
+        	<li class="over">
+            	<a href="planInfo.html">
+                <i class="icon-circle"></i>
+             	<span>意向订单</span>
+                </a>
+           </li>
+        </ul>
+      </li>
+      <li class="order-step-2">
+      	<div class="order-step-title over">
+        	<div class="order-step-title-inner">
+            <em class="icon-ok"></em>
+        	<i class="icon-circle"></i>
+            <span>详细选配</span>
+            </div>
+        </div>
+      	<ul class="order-progress">
+        	<li class="over">
+            	<a href="configInfo_1.html">
+                <i class="icon-circle"></i>
+             	<span>电气认证要求</span>
+                </a>
+           </li>
+        	<li class="over">
+            	<a href="configInfo_2.html">
+                <i class="icon-circle"></i>
+             	<span>结构要求</span>
+                </a>
+           </li>
+        	<li class="over">
+            	<a href="configInfo_3.html">
+                <i class="icon-circle"></i>
+             	<span>软件要求</span>
+                </a>
+           </li>
+        	<li class="over">
+            	<a href="configInfo_4.html">
+                <i class="icon-circle"></i>
+             	<span>印刷品及附件要求</span>
+                </a>
+           </li>
+        	<li class="over">
+            	<a href="configInfo_5.html">
+                <i class="icon-circle"></i>
+             	<span>工艺要求</span>
+                </a>
+           </li>
+        </ul>
+      </li>
+      <li class="order-step-3">
+      	<div class="order-step-title active">
+        	<div class="order-step-title-inner">
+            <em>3</em>
+        	<i class="icon-circle"></i>
+            <span>商务条款</span>
+            </div>
+        </div>
+      	<ul class="order-progress">
+        	<li class="active">
+            	<a href="ysjInfo_1.html">
+                <i class="icon-circle"></i>
+             	<span>易损件信息</span>
+                </a>
+           </li>
+        	<li>
+                <a href="contactInfo_1.html">
+                <i class="icon-circle"></i>
+             	<span>价格及客户</span>
+                </a>
+</li>
+         </ul>
+      </li>
+      <li class="order-step-4">
+      	<div class="order-step-title">
+         	<div class="order-step-title-inner">
+      	    <em>4</em>
+        	<i class="icon-circle"></i>
+            <span>确认订单</span>
+            </div>
+        </div>
+      	<ul class="order-progress">
+        	<li>
+            	<a href="orderView.html">
+                <i class="icon-circle"></i>
+             	<span>浏览订单</span>
+                </a>
+           </li>
+        	<li>
+            	<a href="orderComplete.html">
+                <i class="icon-circle"></i>
+             	<span>完成</span>
+                </a>
+           </li>
+         </ul>
+      </li>
+ 	 </ul>
+     <div class="order-bar"></div>
+  </div>
+  <!-- order step end -->
+  
+  <div class="box box-order">
+  	<!-- box title start -->
+  	<div class="box-title">
+	<ul class="tabs tabs-left">
+        <li>
+            <a href="configInfo_view.html">查看已选配置</a>
+        </li>
+        <li class="active">
+            <a href="configInfo_5.html">销售备损</a>
+        </li>
+    </ul> 
+    </div> 
+  	<!-- box title end -->
+    <div class="box-content">
+    <form class="form-horizontal" action="#" method="POST">
+    	<table class="data-table" width="100%" cellpadding="0" cellspacing="0">
+		<tr>
+		<th width="22%">产品</th>
+		<th width="56%">易损件 &nbsp;<i id="add-ysj" class="icon-plus-sign"></i></th>
+        <th width="11%">订单当前价格</th>
+        <th width="11%">操作</th>
+		</tr>
+		<tr>
+		<td><img src="images/1.jpg" border="0" width="200" height="160"></td>
+		<td valign="top" class="text-left no-padding td-inner">
+    	<table id="ysj-list" class="data-table td-inner-table" width="100%" cellpadding="0" cellspacing="0">
+		  <tr>
+		    <td width="22%" class="title">易损件</td>
+		    <td width="10%" class="title">数量</td>
+		    <td width="18%" class="title">要求</td>
+		    <td width="20%"  class="title">价格（美元）</td>
+		    <td width="20%" class="title">总价（美元）</td>
+		    <td width="10%" class="title">操作</td>
+		    </tr>
+		  <tr>
+		    <td>易损件1</td>
+		    <td>1</td>
+		    <td>ddd</td>
+		    <td>12</td>
+		    <td>12</td>
+		    <td><a href="javascript:void(0);">删除</a></td>
+		    </tr>
+		  </table>
+          <div class="control-group pull-right">
+              <label for="textfield" class="control-label">当前易损总价：</label>
+              <div class="controls">
+                  <input type="text" name="textfield" id="textfield" class="input-xlarge">
+              </div>
+          </div>
+		  </td>
+        <td>112656.00</td>
+        <td>
+          <a href="ysjInfo_2.html">添加易损件</a></br>
+          <a href="contactInfo_2.html">结束添加</a>
+        </td>
+		</tr>
+		</table>
+    </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>

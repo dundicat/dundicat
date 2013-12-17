@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header,
+.dropdown-menu>li:focus>a,
+.dropdown-menu>li:hover>a,
+.sidebar .subnav .subnav-menu>li>a:hover,
+.header .user .icon-nav>li .message-ul>li>a.more-messages,
+.btn.btn-primary:hover{
+	background-color:#119170;
+}
+
+
+.header .main-nav>li>a:hover,
+.header .scroll-nav a.scroll-icon:hover,
+.header .user .icon-nav>li>a:hover,
+.header .user .icon-nav>li>a.active,
+.header .user .userinfo>a:hover,
+.header .user .open,
+.sidebar .subnav .subnav-menu>li.active>a,
+.header .user .icon-nav>li .message-ul>li>a.more-messages:hover{
+	background:#005c53;
+}
+
+.order-progress li.active>a>span,
+.btn.btn-primary,
+.box .box-title .tabs>li.active>a{
+	background-color:#00bc8c;
+	}
+
+.dropdown-menu,
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus{
+	border-color:#119170;
+}
+
+.dropdown-menu>li:focus>a,
+.dropdown-menu>li:hover>a,
+.sidebar .subnav .subnav-menu>li.active>a,
+.sidebar .subnav .subnav-menu>li>a:hover,
+.header .user .icon-nav>li .message-ul>li>a.more-messages:hover,
+.header .user .icon-nav>li .message-ul>li>a.more-messages,
+.order-progress li.active>a>span,
+.btn.btn-primary,
+.box .box-title .tabs>li.active>a{
+	color:#fff;
+}
+.order-progress li.active>a>i,.order-step-title.active,a:link,a:visited{
+	color:#00bc8c;
+}
+
+.sidebar .subnav .subnav-title .toggle-subnav:hover,
+.page-info li,a:hover{
+	color:#005c53;
+}
+
+
+.sidebar .subnav .subnav-title .toggle-subnav,
+.order-progress li.over>a>i,.order-step-title.over i,
+.box .box-content h3,
+.order-info li span.text-info{
+	color:#119170;
+}
+
+.box .box-title .tabs>li>a{
+	color:#eef3ef;
+}
+
+.header .user .icon-nav>li .message-ul>li>a:hover{background:#f1f1f1;color:#333}
+
+
+.page-info{background-color:#edf3ef;}
+.data-table .title{ background-color:#fafcfb;}

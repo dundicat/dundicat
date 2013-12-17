@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>意向订单--Hisense GSS</title>
+	<link rel="stylesheet" href="css/xinrong.css">
+	<link rel="stylesheet" href="css/hisense-style.css">
+	<link rel="stylesheet" href="css/hisense-theme.css">
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/common.js"></script>
+</head>
+
+<body>
+<div class="container-fluid">
+  <!-- page header Start -->
+  <div class="page-header">
+    <div class="pull-left">
+        <h1>订单信息</h1>
+    </div>
+    <div class="pull-right">
+    	<ul class="page-info">
+        	<li id="info-orderNum">订单编号：<span>DD20131115001</span></li>
+        	<li id="info-orderStep">阶段：<span>意向订单</span></li>
+        </ul>
+    </div>
+  </div>
+  <!-- page header End -->
+  <!-- order step start -->
+  <div class="order-step">
+  	<ul>
+      <li class="order-step-1">
+      	<div class="order-step-title active">
+        	<div class="order-step-title-inner">
+            <em>1</em>
+        	<i class="icon-circle"></i>
+            <span>意向订单</span>
+            </div>
+        </div>
+      	<ul class="order-progress">
+        	<li class="active">
+            	<a href="planInfo.html">
+                <i class="icon-circle"></i>
+             	<span>意向订单</span>
+                </a>
+           </li>
+        </ul>
+      </li>
+      <li class="order-step-2">
+      	<div class="order-step-title">
+        	<div class="order-step-title-inner">
+            <em>2</em>
+        	<i class="icon-circle"></i>
+            <span>详细选配</span>
+            </div>
+        </div>
+      	<ul class="order-progress">
+        	<li>
+            	<a href="configInfo_1.html">
+                <i class="icon-circle"></i>
+             	<span>电气认证要求</span>
+                </a>
+           </li>
+        	<li>
+            	<a href="configInfo_2.html">
+                <i class="icon-circle"></i>
+             	<span>结构要求</span>
+                </a>
+           </li>
+        	<li>
+            	<a href="configInfo_3.html">
+                <i class="icon-circle"></i>
+             	<span>软件要求</span>
+                </a>
+           </li>
+        	<li>
+            	<a href="configInfo_4.html">
+                <i class="icon-circle"></i>
+             	<span>印刷品及附件要求</span>
+                </a>
+           </li>
+        	<li>
+            	<a href="configInfo_5.html">
+                <i class="icon-circle"></i>
+             	<span>工艺要求</span>
+                </a>
+           </li>
+        </ul>
+      </li>
+      <li class="order-step-3">
+      	<div class="order-step-title">
+        	<div class="order-step-title-inner">
+            <em>3</em>
+        	<i class="icon-circle"></i>
+            <span>商务条款</span>
+            </div>
+        </div>
+      	<ul class="order-progress">
+        	<li>
+            	<a href="ysjInfo_1.html">
+                <i class="icon-circle"></i>
+             	<span>易损件信息</span>
+                </a>
+           </li>
+        	<li>            	<a href="contactInfo_1.html">
+                <i class="icon-circle"></i>
+             	<span>价格及客户</span>
+                </a>
+</li>
+         </ul>
+      </li>
+      <li class="order-step-4">
+      	<div class="order-step-title">
+         	<div class="order-step-title-inner">
+      	    <em>4</em>
+        	<i class="icon-circle"></i>
+            <span>确认订单</span>
+            </div>
+        </div>
+      	<ul class="order-progress">
+        	<li>
+            	<a href="orderView.html">
+                <i class="icon-circle"></i>
+             	<span>浏览订单</span>
+                </a>
+           </li>
+        	<li>
+            	<a href="orderComplete.html">
+                <i class="icon-circle"></i>
+             	<span>完成</span>
+                </a>
+           </li>
+         </ul>
+      </li>
+ 	 </ul>
+     <div class="order-bar"></div>
+  </div>
+  <!-- order step end -->
+  
+  <div class="box box-order">
+  	<div class="box-content">
+	<form action="configInfo_1.html" method="POST" class='form-horizontal'>
+        <div class="control-group">
+            <label for="textfield" class="control-label">*意向订单</label>
+            <div class="controls">
+                <input type="text" name="textfield" id="textfield" class="input-xlarge">
+            </div>
+        </div>
+        <div class="control-group">
+            <label for="password" class="control-label">*合同号</label>
+            <div class="controls">
+                <input type="text" name="textfield" id="textfield" class="input-xlarge">
+            </div>
+        </div>
+        <div class="control-group">
+            <label for="textfield" class="control-label">*要求交货日期</label>
+            <div class="controls">
+                <input type="text" name="textfield" id="textfield" class="input-xlarge">
+            </div>
+        </div>
+        <div class="control-group">
+            <label for="select" class="control-label">*订单类别</label>
+            <div class="controls">
+                <select name="select" id="select" class='input-large'>
+                    <option value="1">第1类：DR后新品订单</option>
+                     <option value="1">第1类：DR后新品订单</option>
+               </select>
+            </div>
+        </div>
+        <div class="control-group">
+            <label for="textfield" class="control-label">*交货数量</label>
+            <div class="controls">
+                <input type="text" name="textfield" id="textfield" class="input-xlarge">
+            </div>
+        </div>
+        <div class="control-group">
+            <label for="password" class="control-label">*客户型号</label>
+            <div class="controls">
+                <input type="text" name="textfield" id="textfield" class="input-xlarge">
+            </div>
+        </div>
+        <div class="control-group">
+            <label for="textfield" class="control-label">特殊说明</label>
+            <div class="controls">
+                <input type="text" name="textfield" id="textfield" class="input-xlarge">
+            </div>
+        </div>
+        <div class="form-actions ">
+            <button type="submit" class="btn btn-primary btn-large">下一步&nbsp; <i class="icon-chevron-right"></i></button>
+        </div>
+    </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
