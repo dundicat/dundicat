@@ -1,6 +1,13 @@
 $(document).ready(function() {
 
 	ajustHeader();
+	themeDefault = "teal";
+	themeCurr = themeDefault;
+	if($.cookie("themeColors") != null&&$.cookie("themeColors") !=''){
+		themeCurr = $.cookie("themeColors");
+	}
+	$("body").addClass("theme-"+themeCurr).attr("data-theme","theme-"+themeCurr);
+
 		
 	$(".user .dropdown > a[data-toggle=dropdown]").click(function(e){
 		$(".user .dropdown").removeClass("open");
@@ -79,20 +86,19 @@ $(document).ready(function() {
   })
   
   $(".theme-colors > li > span").hover(function(e){
-	  var $el = $(this),
-	  body = $('body');
-	  body.attr("class","").addClass("theme-"+$el.attr("class"));
+	  var $el = $(this);
+	  $("body").attr("class","theme-"+$el.attr("class"));
+	  $("body",window.frames["dataFrame"].document).attr("class","theme-"+$el.attr("class"));
   }, function(){
-	  var $el = $(this),
-	  body = $('body');
-	  if(body.attr("data-theme") !== undefined) {
-		  body.attr("class","").addClass(body.attr("data-theme"));
-	  } else {
-		  body.attr("class","");
-	  }
+	  var $el = $(this);
+	  $("body").attr({"data-theme":"theme-"+themeCurr,"class":"theme-"+themeCurr});;
+	  $("body",window.frames["dataFrame"].document).attr("class","theme-"+themeCurr);
   }).click(function(){
-	 var $el = $(this);
-	 $("body").addClass("theme-"+$el.attr("class")).attr("data-theme","theme-"+$el.attr("class"));
+	  var $el = $(this);
+	  $("body").attr({"data-theme":"theme-"+$el.attr("class"),"class":"theme-"+$el.attr("class")});
+	  $("body",window.frames["dataFrame"].document).attr("class","theme-"+$el.attr("class"));
+	  $.cookie("themeColors",$el.attr("class"));
+	  themeCurr = $el.attr("class");
   });
   
 });
@@ -149,4 +155,3 @@ function ajustHeader(){
 		}
 	}
 }
-

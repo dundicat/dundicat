@@ -1,87 +1,254 @@
-@charset "utf-8";
-/* CSS Document */
+.theme-colors li span.teal{background:#119170}
+.theme-colors li span.green{background:#339933}
+.theme-colors li span.lightred{background:#e63a3a}
 
-.header,
-.dropdown-menu>li:focus>a,
-.dropdown-menu>li:hover>a,
-.sidebar .subnav .subnav-menu>li>a:hover,
-.header .user .icon-nav>li .message-ul>li>a.more-messages,
-.btn.btn-primary:hover{
+.theme-colors li span.blue{background:#368ee0}
+.theme-colors li span.orange{background:#f8a31f}
+.theme-colors li span.red{background:#e51400}
+.theme-colors li span.lime{background:#8cbf26}
+.theme-colors li span.purple{background:#ff0097}
+.theme-colors li span.brown{background:#a05000}
+.theme-colors li span.pink{background:#e671b8}
+.theme-colors li span.magenta{background:#a200ff}
+.theme-colors li span.grey{background:#333}
+.theme-colors li span.darkblue{background:#204e81}
+.theme-colors li span.lightgrey{background:#666}
+.theme-colors li span.satblue{background:#2c5e7b}
+.theme-colors li span.satgreen{background:#56af45}
+.theme-colors li span.grey-3{background:#eee}
+.theme-colors li span.grey-4{background:#999}
+
+/* theme teal */
+.theme-teal .header,
+.theme-teal .dropdown-menu>li:focus>a,
+.theme-teal .dropdown-menu>li:hover>a,
+.theme-teal .sidebar .subnav .subnav-menu>li>a:hover,
+.theme-teal .header .user .icon-nav>li .message-ul>li>a.more-messages,
+.theme-teal .btn.btn-primary:hover{
 	background-color:#119170;
 }
-
-
-.header .main-nav>li>a:hover,
-.header .scroll-nav a.scroll-icon:hover,
-.header .user .icon-nav>li>a:hover,
-.header .user .icon-nav>li>a.active,
-.header .user .userinfo>a:hover,
-.header .user .open,
-.sidebar .subnav .subnav-menu>li.active>a,
-.header .user .icon-nav>li .message-ul>li>a.more-messages:hover{
+.theme-teal .header .main-nav>li>a:hover,
+.theme-teal .header .scroll-nav a.scroll-icon:hover,
+.theme-teal .header .user .icon-nav>li>a:hover,
+.theme-teal .header .user .icon-nav>li>a.active,
+.theme-teal .header .user .userinfo>a:hover,
+.theme-teal .header .user .open,
+.theme-teal .sidebar .subnav .subnav-menu>li.active>a,
+.theme-teal .header .user .icon-nav>li .message-ul>li>a.more-messages:hover{
 	background:#005c53;
 }
-
-.order-progress li.active>a>span,
-.btn.btn-primary,
-.box .box-title .tabs>li.active>a{
+.theme-teal .order-progress li.active>a>span,
+.theme-teal .btn.btn-primary,
+.theme-teal .box .box-title .tabs>li.active>a{
 	background-color:#00bc8c;
 	}
-
-.dropdown-menu,
-textarea:focus,
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="datetime"]:focus,
-input[type="datetime-local"]:focus,
-input[type="date"]:focus,
-input[type="month"]:focus,
-input[type="time"]:focus,
-input[type="week"]:focus,
-input[type="number"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="search"]:focus,
-input[type="tel"]:focus,
-input[type="color"]:focus,
-.uneditable-input:focus{
+.theme-teal .dropdown-menu,
+.theme-teal textarea:focus,
+.theme-teal input[type="text"]:focus,
+.theme-teal input[type="password"]:focus,
+.theme-teal input[type="datetime"]:focus,
+.theme-teal input[type="datetime-local"]:focus,
+.theme-teal input[type="date"]:focus,
+.theme-teal input[type="month"]:focus,
+.theme-teal input[type="time"]:focus,
+.theme-teal input[type="week"]:focus,
+.theme-teal input[type="number"]:focus,
+.theme-teal input[type="email"]:focus,
+.theme-teal input[type="url"]:focus,
+.theme-teal input[type="search"]:focus,
+.theme-teal input[type="tel"]:focus,
+.theme-teal input[type="color"]:focus,
+.theme-teal .uneditable-input:focus{
 	border-color:#119170;
 }
-
-.dropdown-menu>li:focus>a,
-.dropdown-menu>li:hover>a,
-.sidebar .subnav .subnav-menu>li.active>a,
-.sidebar .subnav .subnav-menu>li>a:hover,
-.header .user .icon-nav>li .message-ul>li>a.more-messages:hover,
-.header .user .icon-nav>li .message-ul>li>a.more-messages,
-.order-progress li.active>a>span,
-.btn.btn-primary,
-.box .box-title .tabs>li.active>a{
+.theme-teal .dropdown-menu>li:focus>a,
+.theme-teal .dropdown-menu>li:hover>a,
+.theme-teal .sidebar .subnav .subnav-menu>li.active>a,
+.theme-teal .sidebar .subnav .subnav-menu>li>a:hover,
+.theme-teal .header .user .icon-nav>li .message-ul>li>a.more-messages:hover,
+.theme-teal .header .user .icon-nav>li .message-ul>li>a.more-messages,
+.theme-teal .order-progress li.active>a>span,
+.theme-teal .btn.btn-primary,
+.theme-teal .box .box-title .tabs>li.active>a{
 	color:#fff;
 }
-.order-progress li.active>a>i,.order-step-title.active,a:link,a:visited{
+.theme-teal .order-progress li.active>a>i,
+.theme-teal .order-step-title.active,
+.theme-teal a{
 	color:#00bc8c;
 }
-
-.sidebar .subnav .subnav-title .toggle-subnav:hover,
-.page-info li,a:hover{
+.theme-teal .sidebar .subnav .subnav-title .toggle-subnav:hover,
+.theme-teal .page-info li,
+.theme-teal a:hover{
 	color:#005c53;
 }
-
-
-.sidebar .subnav .subnav-title .toggle-subnav,
-.order-progress li.over>a>i,.order-step-title.over i,
-.box .box-content h3,
-.order-info li span.text-info{
+.theme-teal .sidebar .subnav .subnav-title .toggle-subnav,
+.theme-teal .order-progress li.over>a>i,
+.theme-teal .order-step-title.over i,
+.theme-teal .box .box-content h3,
+.theme-teal .order-info li span.text-info{
 	color:#119170;
 }
-
-.box .box-title .tabs>li>a{
+.theme-teal .box .box-title .tabs>li>a{
 	color:#eef3ef;
 }
+.theme-teal .header .user .icon-nav>li .message-ul>li>a:hover{background:#f1f1f1;color:#333}
+.theme-teal .page-info{background-color:#edf3ef;}
+.theme-teal .data-table .title{ background-color:#fafcfb;}
 
-.header .user .icon-nav>li .message-ul>li>a:hover{background:#f1f1f1;color:#333}
 
+/* theme green */
+.theme-green .header,
+.theme-green .dropdown-menu>li:focus>a,
+.theme-green .dropdown-menu>li:hover>a,
+.theme-green .sidebar .subnav .subnav-menu>li>a:hover,
+.theme-green .header .user .icon-nav>li .message-ul>li>a.more-messages,
+.theme-green .btn.btn-primary:hover{
+	background-color:#339933;
+}
+.theme-green .header .main-nav>li>a:hover,
+.theme-green .header .scroll-nav a.scroll-icon:hover,
+.theme-green .header .user .icon-nav>li>a:hover,
+.theme-green .header .user .icon-nav>li>a.active,
+.theme-green .header .user .userinfo>a:hover,
+.theme-green .header .user .open,
+.theme-green .sidebar .subnav .subnav-menu>li.active>a,
+.theme-green .header .user .icon-nav>li .message-ul>li>a.more-messages:hover{
+	background:#206020;
+}
+.theme-green .order-progress li.active>a>span,
+.theme-green .btn.btn-primary,
+.theme-green .box .box-title .tabs>li.active>a{
+	background-color:#65d250;
+	}
+.theme-green .dropdown-menu,
+.theme-green textarea:focus,
+.theme-green input[type="text"]:focus,
+.theme-green input[type="password"]:focus,
+.theme-green input[type="datetime"]:focus,
+.theme-green input[type="datetime-local"]:focus,
+.theme-green input[type="date"]:focus,
+.theme-green input[type="month"]:focus,
+.theme-green input[type="time"]:focus,
+.theme-green input[type="week"]:focus,
+.theme-green input[type="number"]:focus,
+.theme-green input[type="email"]:focus,
+.theme-green input[type="url"]:focus,
+.theme-green input[type="search"]:focus,
+.theme-green input[type="tel"]:focus,
+.theme-green input[type="color"]:focus,
+.theme-green .uneditable-input:focus{
+	border-color:#339933;
+}
+.theme-green .dropdown-menu>li:focus>a,
+.theme-green .dropdown-menu>li:hover>a,
+.theme-green .sidebar .subnav .subnav-menu>li.active>a,
+.theme-green .sidebar .subnav .subnav-menu>li>a:hover,
+.theme-green .header .user .icon-nav>li .message-ul>li>a.more-messages:hover,
+.theme-green .header .user .icon-nav>li .message-ul>li>a.more-messages,
+.theme-green .order-progress li.active>a>span,
+.theme-green .btn.btn-primary,
+.theme-green .box .box-title .tabs>li.active>a{
+	color:#fff;
+}
+.theme-green .order-progress li.active>a>i,
+.theme-green .order-step-title.active,
+.theme-green a{
+	color:#65d250;
+}
+.theme-green .sidebar .subnav .subnav-title .toggle-subnav:hover,
+.theme-green .page-info li,
+.theme-green a:hover{
+	color:#206020;
+}
+.theme-green .sidebar .subnav .subnav-title .toggle-subnav,
+.theme-green .order-progress li.over>a>i,
+.theme-green .order-step-title.over i,
+.theme-green .box .box-content h3,
+.theme-green .order-info li span.text-info{
+	color:#339933;
+}
+.theme-green .box .box-title .tabs>li>a{
+	color:#f1f2ed;
+}
+.theme-green .header .user .icon-nav>li .message-ul>li>a:hover{background:#f1f1f1;color:#333}
+.theme-green .page-info{background-color:#f0f2ed;}
+.theme-green .data-table .title{ background-color:#fbfcfa;}
 
-.page-info{background-color:#edf3ef;}
-.data-table .title{ background-color:#fafcfb;}
+/* theme lightred */
+.theme-lightred .header,
+.theme-lightred .dropdown-menu>li:focus>a,
+.theme-lightred .dropdown-menu>li:hover>a,
+.theme-lightred .sidebar .subnav .subnav-menu>li>a:hover,
+.theme-lightred .header .user .icon-nav>li .message-ul>li>a.more-messages,
+.theme-lightred .btn.btn-primary:hover{
+	background-color:#e63a3a;
+}
+.theme-lightred .header .main-nav>li>a:hover,
+.theme-lightred .header .scroll-nav a.scroll-icon:hover,
+.theme-lightred .header .user .icon-nav>li>a:hover,
+.theme-lightred .header .user .icon-nav>li>a.active,
+.theme-lightred .header .user .userinfo>a:hover,
+.theme-lightred .header .user .open,
+.theme-lightred .sidebar .subnav .subnav-menu>li.active>a,
+.theme-lightred .header .user .icon-nav>li .message-ul>li>a.more-messages:hover{
+	background:#bc1818;
+}
+.theme-lightred .order-progress li.active>a>span,
+.theme-lightred .btn.btn-primary,
+.theme-lightred .box .box-title .tabs>li.active>a{
+	background-color:#fe3939;
+	}
+.theme-lightred .dropdown-menu,
+.theme-lightred textarea:focus,
+.theme-lightred input[type="text"]:focus,
+.theme-lightred input[type="password"]:focus,
+.theme-lightred input[type="datetime"]:focus,
+.theme-lightred input[type="datetime-local"]:focus,
+.theme-lightred input[type="date"]:focus,
+.theme-lightred input[type="month"]:focus,
+.theme-lightred input[type="time"]:focus,
+.theme-lightred input[type="week"]:focus,
+.theme-lightred input[type="number"]:focus,
+.theme-lightred input[type="email"]:focus,
+.theme-lightred input[type="url"]:focus,
+.theme-lightred input[type="search"]:focus,
+.theme-lightred input[type="tel"]:focus,
+.theme-lightred input[type="color"]:focus,
+.theme-lightred .uneditable-input:focus{
+	border-color:#e63a3a;
+}
+.theme-lightred .dropdown-menu>li:focus>a,
+.theme-lightred .dropdown-menu>li:hover>a,
+.theme-lightred .sidebar .subnav .subnav-menu>li.active>a,
+.theme-lightred .sidebar .subnav .subnav-menu>li>a:hover,
+.theme-lightred .header .user .icon-nav>li .message-ul>li>a.more-messages:hover,
+.theme-lightred .header .user .icon-nav>li .message-ul>li>a.more-messages,
+.theme-lightred .order-progress li.active>a>span,
+.theme-lightred .btn.btn-primary,
+.theme-lightred .box .box-title .tabs>li.active>a{
+	color:#fff;
+}
+.theme-lightred .order-progress li.active>a>i,
+.theme-lightred .order-step-title.active,
+.theme-lightred a{
+	color:#fe3939;
+}
+.theme-lightred .sidebar .subnav .subnav-title .toggle-subnav:hover,
+.theme-lightred .page-info li,
+.theme-lightred a:hover{
+	color:#bc1818;
+}
+.theme-lightred .sidebar .subnav .subnav-title .toggle-subnav,
+.theme-lightred .order-progress li.over>a>i,
+.theme-lightred .order-step-title.over i,
+.theme-lightred .box .box-content h3,
+.theme-lightred .order-info li span.text-info{
+	color:#e63a3a;
+}
+.theme-lightred .box .box-title .tabs>li>a{
+	color:#f2eded;
+}
+.theme-lightred .header .user .icon-nav>li .message-ul>li>a:hover{background:#f1f1f1;color:#333}
+.theme-lightred .page-info{background-color:#f2eded;}
+.theme-lightred .data-table .title{ background-color:#fcfafa;}

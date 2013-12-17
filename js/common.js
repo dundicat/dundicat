@@ -6,4 +6,11 @@ $(document).ready(function() {
 	  dropdown.find(">.dropdown-menu").hide();
 	});
 		
+	themeDefault = "teal";
+	themeCurr = themeDefault;
+	if($.cookie("themeColors") != null&&$.cookie("themeColors") !=''){
+		themeCurr = $.cookie("themeColors");
+	}
+	 $("body").attr("class","theme-"+themeCurr);
+
 });

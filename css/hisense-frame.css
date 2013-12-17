@@ -136,24 +136,6 @@ height:22px
 .theme-colors li{*zoom:1}
 .theme-colors li:after{content:"";display:table;clear:both}
 .theme-colors li span{cursor:pointer;display:block;width:30px;float:left;height:30px;margin:10px 0 0 10px}
-.theme-colors li span.blue{background:#368ee0}
-.theme-colors li span.orange{background:#f8a31f}
-.theme-colors li span.red{background:#e51400}
-.theme-colors li span.green{background:#393}
-.theme-colors li span.lime{background:#8cbf26}
-.theme-colors li span.teal{background:#00aba9}
-.theme-colors li span.purple{background:#ff0097}
-.theme-colors li span.brown{background:#a05000}
-.theme-colors li span.pink{background:#e671b8}
-.theme-colors li span.magenta{background:#a200ff}
-.theme-colors li span.grey{background:#333}
-.theme-colors li span.darkblue{background:#204e81}
-.theme-colors li span.lightred{background:#e63a3a}
-.theme-colors li span.lightgrey{background:#666}
-.theme-colors li span.satblue{background:#2c5e7b}
-.theme-colors li span.satgreen{background:#56af45}
-.theme-colors li span.grey-3{background:#eee}
-.theme-colors li span.grey-4{background:#999}
 
 
 .header .user .icon-nav>li .message-ul{width:240px;padding:0}
