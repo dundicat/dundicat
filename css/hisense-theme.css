@@ -24,7 +24,6 @@
 .theme-teal .header,
 .theme-teal .dropdown-menu>li:focus>a,
 .theme-teal .dropdown-menu>li:hover>a,
-.theme-teal .sidebar .subnav .subnav-menu>li>a:hover,
 .theme-teal .header .user .icon-nav>li .message-ul>li>a.more-messages,
 .theme-teal .btn.btn-primary:hover{
 	background-color:#119170;
@@ -35,15 +34,19 @@
 .theme-teal .header .user .icon-nav>li>a.active,
 .theme-teal .header .user .userinfo>a:hover,
 .theme-teal .header .user .open,
-.theme-teal .sidebar .subnav .subnav-menu>li.active>a,
 .theme-teal .header .user .icon-nav>li .message-ul>li>a.more-messages:hover{
 	background:#005c53;
 }
 .theme-teal .order-progress li.active>a>span,
 .theme-teal .btn.btn-primary,
+.theme-teal .sidebar .subnav .subnav-menu>li.active>a,
 .theme-teal .box .box-title .tabs>li.active>a{
 	background-color:#00bc8c;
 	}
+.theme-teal .page-info{
+	background-color:#edf3ef;
+}
+
 .theme-teal .dropdown-menu,
 .theme-teal textarea:focus,
 .theme-teal input[type="text"]:focus,
@@ -95,7 +98,6 @@
 	color:#eef3ef;
 }
 .theme-teal .header .user .icon-nav>li .message-ul>li>a:hover{background:#f1f1f1;color:#333}
-.theme-teal .page-info{background-color:#edf3ef;}
 .theme-teal .data-table .title{ background-color:#fafcfb;}
 
 
@@ -103,7 +105,6 @@
 .theme-green .header,
 .theme-green .dropdown-menu>li:focus>a,
 .theme-green .dropdown-menu>li:hover>a,
-.theme-green .sidebar .subnav .subnav-menu>li>a:hover,
 .theme-green .header .user .icon-nav>li .message-ul>li>a.more-messages,
 .theme-green .btn.btn-primary:hover{
 	background-color:#119130;
@@ -114,12 +115,12 @@
 .theme-green .header .user .icon-nav>li>a.active,
 .theme-green .header .user .userinfo>a:hover,
 .theme-green .header .user .open,
-.theme-green .sidebar .subnav .subnav-menu>li.active>a,
 .theme-green .header .user .icon-nav>li .message-ul>li>a.more-messages:hover{
 	background:#005c25;
 }
 .theme-green .order-progress li.active>a>span,
 .theme-green .btn.btn-primary,
+.theme-green .sidebar .subnav .subnav-menu>li.active>a,
 .theme-green .box .box-title .tabs>li.active>a{
 	background-color:#00bc2e;
 	}
@@ -181,7 +182,6 @@
 .theme-lightred .header,
 .theme-lightred .dropdown-menu>li:focus>a,
 .theme-lightred .dropdown-menu>li:hover>a,
-.theme-lightred .sidebar .subnav .subnav-menu>li>a:hover,
 .theme-lightred .header .user .icon-nav>li .message-ul>li>a.more-messages,
 .theme-lightred .btn.btn-primary:hover{
 	background-color:#e63a3a;
@@ -192,12 +192,12 @@
 .theme-lightred .header .user .icon-nav>li>a.active,
 .theme-lightred .header .user .userinfo>a:hover,
 .theme-lightred .header .user .open,
-.theme-lightred .sidebar .subnav .subnav-menu>li.active>a,
 .theme-lightred .header .user .icon-nav>li .message-ul>li>a.more-messages:hover{
 	background:#bc1818;
 }
 .theme-lightred .order-progress li.active>a>span,
 .theme-lightred .btn.btn-primary,
+.theme-lightred .sidebar .subnav .subnav-menu>li.active>a,
 .theme-lightred .box .box-title .tabs>li.active>a{
 	background-color:#fe3939;
 	}
@@ -259,7 +259,6 @@
 .theme-blue .header,
 .theme-blue .dropdown-menu>li:focus>a,
 .theme-blue .dropdown-menu>li:hover>a,
-.theme-blue .sidebar .subnav .subnav-menu>li>a:hover,
 .theme-blue .header .user .icon-nav>li .message-ul>li>a.more-messages,
 .theme-blue .btn.btn-primary:hover{
 	background-color:#117191;
@@ -270,12 +269,12 @@
 .theme-blue .header .user .icon-nav>li>a.active,
 .theme-blue .header .user .userinfo>a:hover,
 .theme-blue .header .user .open,
-.theme-blue .sidebar .subnav .subnav-menu>li.active>a,
 .theme-blue .header .user .icon-nav>li .message-ul>li>a.more-messages:hover{
 	background:#00375c;
 }
 .theme-blue .order-progress li.active>a>span,
 .theme-blue .btn.btn-primary,
+.theme-blue .sidebar .subnav .subnav-menu>li.active>a,
 .theme-blue .box .box-title .tabs>li.active>a{
 	background-color:#008dbc;
 	}
@@ -337,7 +336,6 @@
 .theme-purple .header,
 .theme-purple .dropdown-menu>li:focus>a,
 .theme-purple .dropdown-menu>li:hover>a,
-.theme-purple .sidebar .subnav .subnav-menu>li>a:hover,
 .theme-purple .header .user .icon-nav>li .message-ul>li>a.more-messages,
 .theme-purple .btn.btn-primary:hover{
 	background-color:#6f1191;
@@ -348,12 +346,12 @@
 .theme-purple .header .user .icon-nav>li>a.active,
 .theme-purple .header .user .userinfo>a:hover,
 .theme-purple .header .user .open,
-.theme-purple .sidebar .subnav .subnav-menu>li.active>a,
 .theme-purple .header .user .icon-nav>li .message-ul>li>a.more-messages:hover{
 	background:#53005c;
 }
 .theme-purple .order-progress li.active>a>span,
 .theme-purple .btn.btn-primary,
+.theme-purple .sidebar .subnav .subnav-menu>li.active>a,
 .theme-purple .box .box-title .tabs>li.active>a{
 	background-color:#8c00bc;
 	}
@@ -415,7 +413,6 @@
 .theme-brown .header,
 .theme-brown .dropdown-menu>li:focus>a,
 .theme-brown .dropdown-menu>li:hover>a,
-.theme-brown .sidebar .subnav .subnav-menu>li>a:hover,
 .theme-brown .header .user .icon-nav>li .message-ul>li>a.more-messages,
 .theme-brown .btn.btn-primary:hover{
 	background-color:#916f11;
@@ -426,12 +423,12 @@
 .theme-brown .header .user .icon-nav>li>a.active,
 .theme-brown .header .user .userinfo>a:hover,
 .theme-brown .header .user .open,
-.theme-brown .sidebar .subnav .subnav-menu>li.active>a,
 .theme-brown .header .user .icon-nav>li .message-ul>li>a.more-messages:hover{
 	background:#5c5300;
 }
 .theme-brown .order-progress li.active>a>span,
 .theme-brown .btn.btn-primary,
+.theme-brown .sidebar .subnav .subnav-menu>li.active>a,
 .theme-brown .box .box-title .tabs>li.active>a{
 	background-color:#bc8c00;
 	}
