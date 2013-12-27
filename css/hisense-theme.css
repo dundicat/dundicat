@@ -289,13 +289,13 @@
 .theme-blue .header .user .icon-nav>li>a.active,
 .theme-blue .header .user .userinfo>a:hover,
 .theme-blue .header .user .open,
-.theme-blue .dataTables_wrapper .dataTables_paginate>span>a.paginate_active,
 .theme-blue .header .user .icon-nav>li .message-ul>li>a.more-messages:hover{
 	background:#00375c;
 }
 .theme-blue .order-progress li.active>a>span,
 .theme-blue .btn.btn-primary,
 .theme-blue .sidebar .subnav .subnav-menu>li.active>a,
+.theme-blue .dataTables_wrapper .dataTables_paginate>span>a.paginate_active,
 .theme-blue .box .box-title .tabs>li.active>a{
 	background-color:#008dbc;
 	}
@@ -370,13 +370,13 @@
 .theme-purple .header .user .icon-nav>li>a.active,
 .theme-purple .header .user .userinfo>a:hover,
 .theme-purple .header .user .open,
-.theme-purple .dataTables_wrapper .dataTables_paginate>span>a.paginate_active,
 .theme-purple .header .user .icon-nav>li .message-ul>li>a.more-messages:hover{
 	background:#53005c;
 }
 .theme-purple .order-progress li.active>a>span,
 .theme-purple .btn.btn-primary,
 .theme-purple .sidebar .subnav .subnav-menu>li.active>a,
+.theme-purple .dataTables_wrapper .dataTables_paginate>span>a.paginate_active,
 .theme-purple .box .box-title .tabs>li.active>a{
 	background-color:#8c00bc;
 	}
@@ -451,13 +451,13 @@
 .theme-brown .header .user .icon-nav>li>a.active,
 .theme-brown .header .user .userinfo>a:hover,
 .theme-brown .header .user .open,
-.theme-brown .dataTables_wrapper .dataTables_paginate>span>a.paginate_active,
 .theme-brown .header .user .icon-nav>li .message-ul>li>a.more-messages:hover{
 	background:#5c5300;
 }
 .theme-brown .order-progress li.active>a>span,
 .theme-brown .btn.btn-primary,
 .theme-brown .sidebar .subnav .subnav-menu>li.active>a,
+.theme-brown .dataTables_wrapper .dataTables_paginate>span>a.paginate_active,
 .theme-brown .box .box-title .tabs>li.active>a{
 	background-color:#bc8c00;
 	}
