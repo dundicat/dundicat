@@ -28,6 +28,8 @@
 .theme-teal .dropdown-menu>li:focus>a,
 .theme-teal .dropdown-menu>li:hover>a,
 .theme-teal .header .user .icon-nav>li .message-ul>li>a.more-messages,
+.theme-teal .dataTables_wrapper .dataTables_paginate>a:hover,
+.theme-teal .dataTables_wrapper .dataTables_paginate>span>a:hover,
 .theme-teal .btn.btn-primary:hover{
 	background-color:#119170;
 }
@@ -43,6 +45,7 @@
 .theme-teal .order-progress li.active>a>span,
 .theme-teal .btn.btn-primary,
 .theme-teal .sidebar .subnav .subnav-menu>li.active>a,
+.theme-teal .dataTables_wrapper .dataTables_paginate>span>a.paginate_active,
 .theme-teal .box .box-title .tabs>li.active>a{
 	background-color:#00bc8c;
 	}
@@ -113,6 +116,8 @@
 .theme-green .dropdown-menu>li:focus>a,
 .theme-green .dropdown-menu>li:hover>a,
 .theme-green .header .user .icon-nav>li .message-ul>li>a.more-messages,
+.theme-green .dataTables_wrapper .dataTables_paginate>a:hover,
+.theme-green .dataTables_wrapper .dataTables_paginate>span>a:hover,
 .theme-green .btn.btn-primary:hover{
 	background-color:#119130;
 }
@@ -128,6 +133,7 @@
 .theme-green .order-progress li.active>a>span,
 .theme-green .btn.btn-primary,
 .theme-green .sidebar .subnav .subnav-menu>li.active>a,
+.theme-green .dataTables_wrapper .dataTables_paginate>span>a.paginate_active,
 .theme-green .box .box-title .tabs>li.active>a{
 	background-color:#00bc2e;
 	}
@@ -191,6 +197,8 @@
 .theme-lightred .dropdown-menu>li:focus>a,
 .theme-lightred .dropdown-menu>li:hover>a,
 .theme-lightred .header .user .icon-nav>li .message-ul>li>a.more-messages,
+.theme-lightred .dataTables_wrapper .dataTables_paginate>a:hover,
+.theme-lightred .dataTables_wrapper .dataTables_paginate>span>a:hover,
 .theme-lightred .btn.btn-primary:hover{
 	background-color:#e63a3a;
 }
@@ -206,6 +214,7 @@
 .theme-lightred .order-progress li.active>a>span,
 .theme-lightred .btn.btn-primary,
 .theme-lightred .sidebar .subnav .subnav-menu>li.active>a,
+.theme-lightred .dataTables_wrapper .dataTables_paginate>span>a.paginate_active,
 .theme-lightred .box .box-title .tabs>li.active>a{
 	background-color:#fe3939;
 	}
@@ -269,6 +278,8 @@
 .theme-blue .dropdown-menu>li:focus>a,
 .theme-blue .dropdown-menu>li:hover>a,
 .theme-blue .header .user .icon-nav>li .message-ul>li>a.more-messages,
+.theme-blue .dataTables_wrapper .dataTables_paginate>a:hover,
+.theme-blue .dataTables_wrapper .dataTables_paginate>span>a:hover,
 .theme-blue .btn.btn-primary:hover{
 	background-color:#117191;
 }
@@ -278,6 +289,7 @@
 .theme-blue .header .user .icon-nav>li>a.active,
 .theme-blue .header .user .userinfo>a:hover,
 .theme-blue .header .user .open,
+.theme-blue .dataTables_wrapper .dataTables_paginate>span>a.paginate_active,
 .theme-blue .header .user .icon-nav>li .message-ul>li>a.more-messages:hover{
 	background:#00375c;
 }
@@ -347,6 +359,8 @@
 .theme-purple .dropdown-menu>li:focus>a,
 .theme-purple .dropdown-menu>li:hover>a,
 .theme-purple .header .user .icon-nav>li .message-ul>li>a.more-messages,
+.theme-purple .dataTables_wrapper .dataTables_paginate>a:hover,
+.theme-purple .dataTables_wrapper .dataTables_paginate>span>a:hover,
 .theme-purple .btn.btn-primary:hover{
 	background-color:#6f1191;
 }
@@ -356,6 +370,7 @@
 .theme-purple .header .user .icon-nav>li>a.active,
 .theme-purple .header .user .userinfo>a:hover,
 .theme-purple .header .user .open,
+.theme-purple .dataTables_wrapper .dataTables_paginate>span>a.paginate_active,
 .theme-purple .header .user .icon-nav>li .message-ul>li>a.more-messages:hover{
 	background:#53005c;
 }
@@ -425,6 +440,8 @@
 .theme-brown .dropdown-menu>li:focus>a,
 .theme-brown .dropdown-menu>li:hover>a,
 .theme-brown .header .user .icon-nav>li .message-ul>li>a.more-messages,
+.theme-brown .dataTables_wrapper .dataTables_paginate>a:hover,
+.theme-brown .dataTables_wrapper .dataTables_paginate>span>a:hover,
 .theme-brown .btn.btn-primary:hover{
 	background-color:#916f11;
 }
@@ -434,6 +451,7 @@
 .theme-brown .header .user .icon-nav>li>a.active,
 .theme-brown .header .user .userinfo>a:hover,
 .theme-brown .header .user .open,
+.theme-brown .dataTables_wrapper .dataTables_paginate>span>a.paginate_active,
 .theme-brown .header .user .icon-nav>li .message-ul>li>a.more-messages:hover{
 	background:#5c5300;
 }

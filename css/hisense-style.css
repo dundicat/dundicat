@@ -290,14 +290,14 @@ margin-top:10px;
 .table.table-hover tr:hover>td{background:#f8f8f8}
 
 .box .table.dataTable{margin-bottom:0;clear:both}
-.box .table.dataTable th{ background-color:#f0f2f1; text-align:center;}
-.box .table.dataTable td{ background-color:#fff; text-align:center;}
+.box .table.dataTable th{ background-color:#f0f2f1; text-align:center;line-height:12px;}
+.box .table.dataTable td{ background-color:#fff; text-align:center; line-height:12px;}
 
 .box .table.dataTable.dataTable-columnfilter .filter_column input{margin-bottom:0;width:100%;padding:4px 0;text-indent:8px}
 .box .table.dataTable.dataTable-columnfilter .thefilter th{background:#f0f2f1}
-.box .table.dataTable .sorting_asc{background:url("../images/sorting-asc.png") no-repeat right center #f0f2f1}
-.box .table.dataTable .sorting_desc{background:url("../images/sorting-desc.png") no-repeat right center #f0f2f1}
-.box .table.dataTable .sorting{background:url("../images/sorting.png") no-repeat right center #f0f2f1}
+.box .table.dataTable .sorting_asc{background:url("../images/sorting-asc.png") no-repeat right 20px center #f0f2f1}
+.box .table.dataTable .sorting_desc{background:url("../images/sorting-desc.png") no-repeat right 20px center #f0f2f1}
+.box .table.dataTable .sorting{background:url("../images/sorting.png") no-repeat right 20px center #f0f2f1}
 .box .table.dataTable .sorting,.table.dataTable .sorting_desc,.table.dataTable .sorting_asc{padding-right:30px;white-space:nowrap}
 .box .table.dataTable.dataTable-scroll-x{border-collapse:separate;max-width:none}
 .box .table.dataTable.dataTable-scroll-x th{white-space:nowrap}
@@ -327,8 +327,11 @@ span.ColVis_radio{display:inline-block;width:20px}
 
 .dataTables_wrapper .dataTables_paginate{float:left;margin-right:0px;margin-top:10px;margin-bottom:10px;border:1px solid #dbdbdb;border-right:none; height:30px;overflow:hidden;}
 .dataTables_wrapper .dataTables_paginate>a.paginate_button,.dataTables_wrapper .dataTables_paginate>span>a{margin-top:10px;background:#fff;padding:10px;color:#666;text-decoration:none;cursor:pointer;border-right:1px solid #dbdbdb; line-height:30px;}
-.dataTables_wrapper .dataTables_paginate>a:hover{background:#ddd}
-.dataTables_wrapper .dataTables_paginate>span>a.paginate_active{background:#00bc8c;color:#fff}
+.dataTables_wrapper .dataTables_paginate>a:hover,
+.dataTables_wrapper .dataTables_paginate>span>a:hover,
+.dataTables_wrapper .dataTables_paginate>span>a.paginate_active{
+	color:#fff;
+}
 .dataTables-wrapper .dataTables_paginate>a.paginate_button_disabled{color:#999;}
 .dataTables_wrapper .dataTables_length{float:left;margin:10px 0 5px 0;padding:0 10px;border:1px solid #dbdbdb;border-left:none; border-right:none; height:30px; background-color:#fff;color:#666;overflow:hidden;}
 .dataTables_wrapper .dataTables_length select,.dataTables_wrapper .dataTables_length span{float:left;}

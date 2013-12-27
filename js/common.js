@@ -7,7 +7,6 @@ $(document).ready(function() {
 	});
 	$("body").click(function(e){
 		var target = $(e.target);
-		console.log(target);
 		var $el = $(".ColVis_collection");
 		if(target.closest(".ColVis_Button").length == 0){
 			// close all
