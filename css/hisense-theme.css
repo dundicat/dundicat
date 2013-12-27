@@ -20,6 +20,9 @@
 .theme-colors li span.grey-3{background:#eee}
 .theme-colors li span.grey-4{background:#999}
 */
+
+
+.order-step-title{color:#ccc;}
 /* theme teal */
 .theme-teal .header,
 .theme-teal .dropdown-menu>li:focus>a,
@@ -77,23 +80,27 @@
 .theme-teal .box .box-title .tabs>li.active>a{
 	color:#fff;
 }
+.theme-teal a,
 .theme-teal .order-progress li.active>a>i,
 .theme-teal .order-step-title.active,
-.theme-teal a{
+.theme-teal .order-step-title.active .order-step-title-inner i{
 	color:#00bc8c;
 }
-.theme-teal .sidebar .subnav .subnav-title .toggle-subnav:hover,
+.theme-teal .sidebar .subnav .subnav-title>a:hover,
 .theme-teal .page-info li,
 .theme-teal a:hover{
 	color:#005c53;
 }
-.theme-teal .sidebar .subnav .subnav-title .toggle-subnav,
+.theme-teal .sidebar .subnav .subnav-title>a,
 .theme-teal .order-progress li.over>a>i,
 .theme-teal .order-step-title.over i,
 .theme-teal .box .box-content h3,
+.theme-teal .table-box .box-title h3,
 .theme-teal .order-info li span.text-info{
 	color:#119170;
 }
+.theme-teal .sidebar .subnav .subnav-title>a:link>i{color:#119170;}
+
 .theme-teal .box .box-title .tabs>li>a{
 	color:#eef3ef;
 }
@@ -159,7 +166,7 @@
 .theme-green a{
 	color:#00bc2e;
 }
-.theme-green .sidebar .subnav .subnav-title .toggle-subnav:hover,
+.theme-green .sidebar .subnav .subnav-title>a:hover,
 .theme-green .page-info li,
 .theme-green a:hover{
 	color:#005c25;
@@ -168,6 +175,7 @@
 .theme-green .order-progress li.over>a>i,
 .theme-green .order-step-title.over i,
 .theme-green .box .box-content h3,
+.theme-green .table-box .box-title h3,
 .theme-green .order-info li span.text-info{
 	color:#119130;
 }
@@ -236,7 +244,7 @@
 .theme-lightred a{
 	color:#fe3939;
 }
-.theme-lightred .sidebar .subnav .subnav-title .toggle-subnav:hover,
+.theme-lightred .sidebar .subnav .subnav-title>a:hover,
 .theme-lightred .page-info li,
 .theme-lightred a:hover{
 	color:#bc1818;
@@ -245,6 +253,7 @@
 .theme-lightred .order-progress li.over>a>i,
 .theme-lightred .order-step-title.over i,
 .theme-lightred .box .box-content h3,
+.theme-lightred .table-box .box-title h3,
 .theme-lightred .order-info li span.text-info{
 	color:#e63a3a;
 }
@@ -313,7 +322,7 @@
 .theme-blue a{
 	color:#008dbc;
 }
-.theme-blue .sidebar .subnav .subnav-title .toggle-subnav:hover,
+.theme-blue .sidebar .subnav .subnav-title>a:hover,
 .theme-blue .page-info li,
 .theme-blue a:hover{
 	color:#00375c;
@@ -322,6 +331,7 @@
 .theme-blue .order-progress li.over>a>i,
 .theme-blue .order-step-title.over i,
 .theme-blue .box .box-content h3,
+.theme-blue .table-box .box-title h3,
 .theme-blue .order-info li span.text-info{
 	color:#117191;
 }
@@ -390,7 +400,7 @@
 .theme-purple a{
 	color:#8c00bc;
 }
-.theme-purple .sidebar .subnav .subnav-title .toggle-subnav:hover,
+.theme-purple .sidebar .subnav .subnav-title>a:hover,
 .theme-purple .page-info li,
 .theme-purple a:hover{
 	color:#53005c;
@@ -399,6 +409,7 @@
 .theme-purple .order-progress li.over>a>i,
 .theme-purple .order-step-title.over i,
 .theme-purple .box .box-content h3,
+.theme-purple .table-box .box-title h3,
 .theme-purple .order-info li span.text-info{
 	color:#6f1191;
 }
@@ -467,7 +478,7 @@
 .theme-brown a{
 	color:#bc8c00;
 }
-.theme-brown .sidebar .subnav .subnav-title .toggle-subnav:hover,
+.theme-brown .sidebar .subnav .subnav-title>a:hover,
 .theme-brown .page-info li,
 .theme-brown a:hover{
 	color:#5c5300;
@@ -476,6 +487,7 @@
 .theme-brown .order-progress li.over>a>i,
 .theme-brown .order-step-title.over i,
 .theme-brown .box .box-content h3,
+.theme-brown .table-box .box-title h3,
 .theme-brown .order-info li span.text-info{
 	color:#916f11;
 }

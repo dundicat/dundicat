@@ -26,7 +26,7 @@ $(document).ready(function() {
 	$("body").click(function(e){
 		var target = $(e.target);
 		var $el = $(".user .dropdown");
-		if(target.parents(".dropdown").length == 0&& $el.hasClass("open")){
+		if((target.parents(".dropdown").length == 0||target.parents(".dropdown-menu").length > 0)&& $el.hasClass("open")){
 			// close all
 			$el.removeClass("open");
 			$el.find(">.dropdown-menu").hide(); 
