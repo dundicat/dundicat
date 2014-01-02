@@ -1406,16 +1406,13 @@ select:focus:invalid:focus {
 .input-prepend .add-on {
   display: inline-block;
   width: auto;
-  height: 20px;
+  height: 22px;
   min-width: 16px;
-  padding: 4px 5px;
+  padding:0 7px;
   font-size: 14px;
   font-weight: normal;
-  line-height: 20px;
+  line-height: 22px;
   text-align: center;
-  text-shadow: 0 1px 0 #ffffff;
-  background-color: #eeeeee;
-  border: 1px solid #ccc;
 }
 
 .input-append .add-on,
@@ -1689,7 +1686,7 @@ table {
 
 .table-condensed th,
 .table-condensed td {
-  padding: 4px 5px;
+  padding:5px;
 }
 
 .table-bordered {
@@ -5715,3 +5712,42 @@ ul.icons li [class^="icon-"],ul.icons li [class*=" icon-"]{width:.75em}
 
 .form-horizontal.form-bordered .control-group .control-label small{display:block;font-size:12px;color:#888;font-weight:normal}
 
+/**/
+.datepicker.datepicker-dropdown{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}
+.datepicker.datepicker-dropdown:before,.datepicker.datepicker-dropdown:after{border:0}
+
+.datepicker.datepicker-dropdown .datepicker-days td,
+.datepicker.datepicker-dropdown .datepicker-days th,
+.datepicker.datepicker-dropdown .datepicker-days span,
+.datepicker.datepicker-dropdown .datepicker-years td,
+.datepicker.datepicker-dropdown .datepicker-years th,
+.datepicker.datepicker-dropdown .datepicker-years span,
+.datepicker.datepicker-dropdown .datepicker-months td,
+.datepicker.datepicker-dropdown .datepicker-months th,
+.datepicker.datepicker-dropdown .datepicker-months span{cursor:pointer; text-align:center;}
+
+.datepicker.datepicker-dropdown .datepicker-months span,
+.datepicker.datepicker-dropdown .datepicker-years span {
+    display: block;
+    width: 23%;
+    height: 22px;
+    line-height: 22px;
+    float: left;
+    margin: 1%;
+	text-align:center;
+}
+.datepicker.datepicker-dropdown .datepicker-days th.dow{
+	cursor:default;
+}
+.datepicker.datepicker-dropdown .datepicker-days td.old,
+.datepicker.datepicker-dropdown .datepicker-days td.new{
+	color:#999;
+}
+
+.datepicker.datepicker-dropdown .datepicker-days .active,
+.datepicker.datepicker-dropdown .datepicker-years .active,
+.datepicker.datepicker-dropdown .datepicker-months .active{ color:#fff;}
+
+.datepicker.datepicker-dropdown .datepicker-days td:hover,
+.datepicker.datepicker-dropdown .datepicker-years span:hover,
+.datepicker.datepicker-dropdown .datepicker-months span:hover{background:#dbdbdb;}

@@ -46,6 +46,9 @@
 .theme-teal .btn.btn-primary,
 .theme-teal .sidebar .subnav .subnav-menu>li.active>a,
 .theme-teal .dataTables_wrapper .dataTables_paginate>span>a.paginate_active,
+.theme-teal .datepicker.datepicker-dropdown .datepicker-days .active,
+.theme-teal .datepicker.datepicker-dropdown .datepicker-years .active,
+.theme-teal .datepicker.datepicker-dropdown .datepicker-months .active,
 .theme-teal .box .box-title .tabs>li.active>a{
 	background-color:#00bc8c;
 	}
@@ -134,6 +137,9 @@
 .theme-green .btn.btn-primary,
 .theme-green .sidebar .subnav .subnav-menu>li.active>a,
 .theme-green .dataTables_wrapper .dataTables_paginate>span>a.paginate_active,
+.theme-green .datepicker.datepicker-dropdown .datepicker-days .active,
+.theme-green .datepicker.datepicker-dropdown .datepicker-years .active,
+.theme-green .datepicker.datepicker-dropdown .datepicker-months .active,
 .theme-green .box .box-title .tabs>li.active>a{
 	background-color:#00bc2e;
 	}
@@ -215,6 +221,9 @@
 .theme-lightred .btn.btn-primary,
 .theme-lightred .sidebar .subnav .subnav-menu>li.active>a,
 .theme-lightred .dataTables_wrapper .dataTables_paginate>span>a.paginate_active,
+.theme-lightred .datepicker.datepicker-dropdown .datepicker-days .active,
+.theme-lightred .datepicker.datepicker-dropdown .datepicker-years .active,
+.theme-lightred .datepicker.datepicker-dropdown .datepicker-months .active,
 .theme-lightred .box .box-title .tabs>li.active>a{
 	background-color:#fe3939;
 	}
@@ -296,6 +305,9 @@
 .theme-blue .btn.btn-primary,
 .theme-blue .sidebar .subnav .subnav-menu>li.active>a,
 .theme-blue .dataTables_wrapper .dataTables_paginate>span>a.paginate_active,
+.theme-blue .datepicker.datepicker-dropdown .datepicker-days .active,
+.theme-blue .datepicker.datepicker-dropdown .datepicker-years .active,
+.theme-blue .datepicker.datepicker-dropdown .datepicker-months .active,
 .theme-blue .box .box-title .tabs>li.active>a{
 	background-color:#008dbc;
 	}
@@ -377,6 +389,9 @@
 .theme-purple .btn.btn-primary,
 .theme-purple .sidebar .subnav .subnav-menu>li.active>a,
 .theme-purple .dataTables_wrapper .dataTables_paginate>span>a.paginate_active,
+.theme-purple .datepicker.datepicker-dropdown .datepicker-days .active,
+.theme-purple .datepicker.datepicker-dropdown .datepicker-years .active,
+.theme-purple .datepicker.datepicker-dropdown .datepicker-months .active,
 .theme-purple .box .box-title .tabs>li.active>a{
 	background-color:#8c00bc;
 	}
@@ -458,6 +473,9 @@
 .theme-brown .btn.btn-primary,
 .theme-brown .sidebar .subnav .subnav-menu>li.active>a,
 .theme-brown .dataTables_wrapper .dataTables_paginate>span>a.paginate_active,
+.theme-brown .datepicker.datepicker-dropdown .datepicker-days .active,
+.theme-brown .datepicker.datepicker-dropdown .datepicker-years .active,
+.theme-brown .datepicker.datepicker-dropdown .datepicker-months .active,
 .theme-brown .box .box-title .tabs>li.active>a{
 	background-color:#bc8c00;
 	}

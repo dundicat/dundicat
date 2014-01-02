@@ -11,14 +11,18 @@
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.cookie.js"></script>
+	<!-- jQuery UI -->
+	<link rel="stylesheet" href="css/plugins/jquery-ui/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="css/plugins/jquery-ui/smoothness/jquery.ui.theme.css">
 	<!-- dataTables -->
 	<script src="js/plugins/datatable/jquery.dataTables.min.js"></script>
 	<script src="js/plugins/datatable/TableTools.min.js"></script>
-	<script src="js/plugins/datatable/ColReorder.min.js"></script>
 <!--	<script src="js/plugins/datatable/ColVis.js"></script>
 -->	<script src="js/plugins/datatable/FixedColumns.min.js"></script>
-	<script src="js/plugins/datatable/dataTables.scroller.min.js"></script>
-	<script src="js/common.js"></script>
+	<!-- Datepicker -->
+	<script src="js/plugins/datepicker/datepicker.js"></script>
+    
+    <script src="js/common.js"></script>
     <script type="text/javascript">
 	  $(document).ready( function () {
 	  // dataTables
@@ -165,16 +169,16 @@
         <div class="control-group">
           <label for="textfield" class="control-label">交货期：</label>
           <div class="controls">
-				<div class="input-append">
-                    <input class="input-small" type="text">
-					<button type="button" class="btn"><i class="icon-calendar"></i></button>
+				<div class="input-append date" data-date-format="yyyy-mm-dd">
+                    <input class="input-small" type="text" readonly>
+					<button type="button" class="btn add-on"><i class="icon-calendar"></i></button>
                 </div>
           </div>
           <span class="control-text">至</span>
           <div class="controls">
-				<div class="input-append">
-                    <input class="input-small" type="text">
-					<button type="button" class="btn"><i class="icon-calendar"></i></button>
+				<div class="input-append date">
+                    <input class="input-small" type="text" readonly>
+					<button type="button" class="btn add-on"><i class="icon-calendar"></i></button>
                 </div>
           </div>
         </div> 
