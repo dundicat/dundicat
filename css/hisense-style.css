@@ -303,9 +303,9 @@ margin-top:10px;
 
 .box .table.dataTable.dataTable-columnfilter .filter_column input{margin-bottom:0;width:100%;padding:4px 0;text-indent:8px}
 .box .table.dataTable.dataTable-columnfilter .thefilter th{background:#f0f2f1}
-.box .table.dataTable .sorting_asc{background:url("../images/sorting-asc.png") no-repeat right 20px center #f0f2f1}
-.box .table.dataTable .sorting_desc{background:url("../images/sorting-desc.png") no-repeat right 20px center #f0f2f1}
-.box .table.dataTable .sorting{background:url("../images/sorting.png") no-repeat right 20px center #f0f2f1}
+.box .table.dataTable .sorting_asc{background:url("../images/sorting-asc.png") no-repeat 90% center  #f0f2f1}
+.box .table.dataTable .sorting_desc{background:url("../images/sorting-desc.png") no-repeat 90% center #f0f2f1}
+.box .table.dataTable .sorting{background:url("../images/sorting.png") no-repeat 90% center #f0f2f1}
 .box .table.dataTable .sorting,.table.dataTable .sorting_desc,.table.dataTable .sorting_asc{padding-right:30px;white-space:nowrap}
 .box .table.dataTable.dataTable-scroll-x{border-collapse:separate;max-width:none}
 .box .table.dataTable.dataTable-scroll-x th{white-space:nowrap}
