@@ -20,13 +20,12 @@
 <!--	<script src="js/plugins/datatable/ColVis.js"></script>
 -->	<script src="js/plugins/datatable/FixedColumns.min.js"></script>
 	<!-- Datepicker -->
-	<script src="js/plugins/datepicker/datepicker.js"></script>
+	<script language="javascript" type="text/javascript" src="js/plugins/My97DatePicker/WdatePicker.js"></script>
     
     <script src="js/common.js"></script>
     <script type="text/javascript">
 	  $(document).ready( function () {
 	  // dataTables
-		
 		var oTable = $('.dataTable').dataTable( {
 			"sScrollX": "120%",
 			"sScrollY": "270px",
@@ -169,16 +168,16 @@
         <div class="control-group">
           <label for="textfield" class="control-label">交货期：</label>
           <div class="controls">
-				<div class="input-append date" data-date-format="yyyy-mm-dd">
-                    <input class="input-small" type="text" readonly>
-					<button type="button" class="btn add-on"><i class="icon-calendar"></i></button>
+				<div class="input-append">
+                    <input class="input-small" id="jhq-start" type="text" readonly>
+					<button type="button" class="btn add-on" onclick="WdatePicker({el:'jhq-start'})"><i class="icon-calendar"></i></button>
                 </div>
           </div>
           <span class="control-text">至</span>
           <div class="controls">
-				<div class="input-append date">
-                    <input class="input-small" type="text" readonly>
-					<button type="button" class="btn add-on"><i class="icon-calendar"></i></button>
+				<div class="input-append">
+                    <input class="input-small" id="jhq-end" type="text" readonly>
+					<button type="button" class="btn add-on" onclick="WdatePicker({el:'jhq-end'})"><i class="icon-calendar"></i></button>
                 </div>
           </div>
         </div> 

@@ -281,6 +281,10 @@ margin-top:10px;
 	line-height:22px;
 	padding:0 7px;
 	color:#fff;
+	background-color:#ccc;
+}
+.data-search .input-append .btn:hover{
+	background-color:#999;
 }
 
 .table-bordered{border-top:0}
